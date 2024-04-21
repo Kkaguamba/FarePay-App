@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "649522714140",
+    "project_id": "myfarepayapp",
+    "storage_bucket": "myfarepayapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649522714140:android:e6a41cdc6496fac707f1d9",
+        "android_client_info": {
+          "package_name": "com.example.myfarepayapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV_ALkVrJmkvpMgdCS8bq6ZY5-lgejsuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
