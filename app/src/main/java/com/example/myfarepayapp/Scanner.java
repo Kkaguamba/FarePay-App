@@ -43,16 +43,11 @@ public class Scanner extends AppCompatActivity {
                 Toast.makeText(Scanner.this, "Logout successful", Toast.LENGTH_SHORT).show();
             }
         });
-
-
         btnScan.setOnClickListener(view ->
         {
             scanCode();
-
         });
-
     }
-
     private void scanCode() {
         ScanOptions options = new ScanOptions();
         options.setPrompt("Volume up to flash on");
@@ -66,14 +61,23 @@ public class Scanner extends AppCompatActivity {
      if(result.getContents() !=null)
      {
          AlertDialog.Builder builder = new AlertDialog.Builder(Scanner.this);
-         builder.setTitle("Amount is");
+         builder.setTitle("Proceed to pay");
          builder.setMessage(result.getContents());
-         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-             @Override
-             public void onClick(DialogInterface dialogInterface, int i) {
-                 dialogInterface.dismiss();
-             }
-         }).show();
+         builder.setNegativeButton("CANCEL", (dialog, which) ->{
+             Toast.makeText(Scanner.this, "Cancelled", Toast.LENGTH_SHORT).show();
+             dialog.dismiss();
+
+         });
+         builder.setPositiveButton("OK", (dialog, which) -> {
+             Intent i = new Intent(Scanner.this, Payment_Activity.class);
+             i.putExtra("phone", result.getContents());
+             i.putExtra("amount", result.getContents());
+             startActivity(i);
+             Toast.makeText(Scanner.this, "Proceed to pay", Toast.LENGTH_SHORT).show();
+             dialog.dismiss();
+         });
+         AlertDialog dialog = builder.create();
+         dialog.show();
      }
     });
 }

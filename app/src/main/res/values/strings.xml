@@ -1,3 +1,33 @@
 <resources>
-    <string name="app_name">MyFarePayApp</string>
+    <string name="app_name">FarePayment App</string>
+    <string name="paragraph">The FarePayment App is an android app built to help commuters pay their fare in matatus.
+    \n\nWith the use of Qr Code Technology this App is able to incorporate security,reliability,and fast payment methods that will ensure user satisfaction.
+    \n\nThe App brings easiness and convenience to the fare payment process, eradicating the traditional methods of fare payment.</string>
+    <string name="introduction">Welcome to the help center for FarePayment App!\n\nHere you will find answers to your questions, guides on how to use our features, and ways to contact support if you need further assistance.</string>
+    <string name="faqs">"How do I create an account?"\n\nTo create an account, click on the "Sign Up" button on the home screen and follow the prompts.\n\n"I forgot my password,what should I do?"\n\nClick on the "Forgot Password?" button on the home screen and follow the instructions to reset your password.</string>
+    <string name="user_guide">Getting Started with FarePayment App
+    \n\nLearn how to use the FarePayment App features by following these steps:[LINK]</string>
+    <string name="contact_support">If you need further assistance, please contact our support team.
+    \n\nEmail: support@farepaymentapp.com
+    \n\nPhone: +254 700 000 000
+    \n\nLive Chat: https://chat.farepaymentapp.com (8AM to 6PM)</string>
+    <string name="feedback">We value your feedback! Please share your thoughts and suggestions below.
+    \n\n[LINK]</string>
+    <string name="terms_and_conditions">By using the FarePayment App, you agree to our Terms of Service and Privacy Policy</string>
+    <string name="app_updates">Stay up to date with the latest features and improvements. Check our release notes [LINK] to see what is new in the latest version of the FarePayment App.</string>
+    <string name="share">Share</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="click_menu">Tap the menu / drag right to open drawer</string>
+    <string name="app_update">App Updates</string>
+    <string name="t_s">Terms and Conditions</string>
+    <string name="feeds">"Feedback "</string>
+    <string name="contact">Contact Support</string>
+    <string name="users">User Guide</string>
+    <string name="faq">FAQs</string>
+    <string name="app_intro">App Introduction</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
 </resources>

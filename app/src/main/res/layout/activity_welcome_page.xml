@@ -81,7 +81,19 @@
             </com.google.android.material.button.MaterialButton>
 
         </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/forgot_pass"
+            android:textColor="@color/blue"
+            android:text="Help! 0711708656"
+            android:textStyle="bold"
+            android:fontFamily="@font/comfortaabold"
+            android:textSize="16sp"
+            android:textAlignment="textEnd"
+            android:layout_marginTop="350dp"/>
 
     </LinearLayout>
+
 
 </ScrollView>

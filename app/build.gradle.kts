@@ -32,16 +32,18 @@ android {
     }
 }
 
+
 dependencies {
 
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation ("com.airbnb.android:lottie:6.3.0")
-    implementation ("com.journeyapps:zxing-android-embedded:4.3.0")
+    implementation (libs.lottie)
+    implementation (libs.zxing.android.embedded)
     implementation(libs.firebase.database)
     implementation(libs.firebase.auth)
+    implementation(libs.legacy.support.v4)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
